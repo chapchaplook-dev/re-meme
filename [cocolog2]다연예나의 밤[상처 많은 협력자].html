@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+</head>
+<body>
+<style>
+    html, body{padding: 0; margin: 0;}
+    * {box-sizing: border-box;}
+    #cclog_ccf .ccl_inWrap {font-size: 15px; letter-spacing: -.5px; color: #ffffff;}
+
+    #cclog_ccf .ccl_inWrap .ccl_tab {width: 100%; background: #27262C; position: relative;}
+    #cclog_ccf .ccl_inWrap .ccl_tabtitle {margin: 0; color: #bcbcc1; background: #474952; position: absolute; top: 10px; right: 10px; border-radius: 5px; padding: 5px; font-weight: 200}
+
+    #cclog_ccf .ccl_inWrap .ccl_player {display: flex; overflow: hidden; padding: 20px 0px 20px 20px; border-bottom: 1px solid rgba(255,255,255,0.08)}
+    #cclog_ccf .ccl_inWrap .ccl_infoWrap .ccl_imgWrap {overflow: hidden; width: 40px; height: 40px; background-color: rgba(0, 0, 0, 0.31); float: left; border-radius: 5px; }
+    #cclog_ccf .ccl_inWrap .ccl_infoWrap .ccl_imgWrap img {width: 40px; height: auto;}
+    #cclog_ccf .ccl_inWrap .ccl_infoWrap .ccl_imgWrap:not(:has(img)) {opacity: 0;}
+    #cclog_ccf .ccl_inWrap .ccl_textWrap {float: left; line-height: 1.6; margin-left: 20px; margin-right: 20px;}
+    #cclog_ccf .ccl_inWrap .ccl_textWrap .ccl_Uname {margin: 0; font-weight: 800;}
+    #cclog_ccf .ccl_inWrap .ccl_textWrap .ccl_Utext {margin: 0; font-weight: 400; color: #59595D}
+    #cclog_ccf .ccl_inWrap .ccl_tab.ccl_main .ccl_textWrap .ccl_Utext {color: #ffffff;}
+
+    #cclog_ccf .ccl_inWrap .ccl_player.system {padding: 0px; border-color: #313033 !important; background: #33313b; text-align: center; justify-content: center}
+    #cclog_ccf .ccl_inWrap .ccl_player.system .ccl_infoWrap {display: none;}
+    #cclog_ccf .ccl_inWrap .ccl_player.system .ccl_textWrap {margin-left: 0; padding: 10px 20px}
+    #cclog_ccf .ccl_inWrap .ccl_player.system .ccl_textWrap .ccl_Uname {color: #858296; font-size:0.86em; letter-spacing: 1px; padding: 3px 8px; border-radius: 15px; background: #000000}
+    #cclog_ccf .ccl_inWrap .ccl_player.system .ccl_textWrap .ccl_Utext {margin-top: 5px; color: #908e9a; letter-spacing: -1px}
+
+    #cclog_ccf .ccl_inWrap .ccl_main .ccl_player.narrator {padding: 0px; text-align: center; justify-content: center;}
+    #cclog_ccf .ccl_inWrap .ccl_main .ccl_player.narrator .ccl_infoWrap {display: none;}
+    #cclog_ccf .ccl_inWrap .ccl_main .ccl_player.narrator .ccl_textWrap {margin-left: 0; padding: 10px 20px}
+    #cclog_ccf .ccl_inWrap .ccl_main .ccl_player.narrator .ccl_textWrap .ccl_Uname {display: none;}
+    #cclog_ccf .ccl_inWrap .ccl_main .ccl_player.narrator .ccl_textWrap .ccl_Utext {margin-top: 5px; letter-spacing: -1px}
+
+</style>
+<div class="cclog_wrap" id="cclog_ccf">
+    <div class="ccl_inWrap">
+        <div class="ccl_tab ccl_tab00">
+            <p class="ccl_tabtitle">상처 많은 협력자</p>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">밤하늘에 빛나는 보름달이 어둠 속에서 쓰러져 있는 나가하라를 비춘다.<br>아무래도 이곳은 어둑한 뒷골목인 것 같다.<br>당신은 자신이 왜 이곳에 쓰러져 있는지 기억해 낼 수 없다.<br>주위를 둘러보자, 당신을 내려다보고 있는 섬뜩한 남자와 눈이 마주친다.<br>그는 기분 나쁘게 입꼬리를 비틀며 조용히 입을 연다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p000">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/W41Be8Q0N4SMbMG2lghVGxadrWu2/files/01df2b1249696573c5310f61ee278a7da7b41ce048ae9d50a9c46ce1b28e89d1?t=1785039915515"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">???</p>
+                    <p class="ccl_Utext">달은 삶과 죽음의 상징이지.<br>한 번 죽은 뒤, 새로운 생명을 품고 다시 태어난다.<br>너, 기분은 좀 어때?<br>너를 갉아먹던 마음의 병에서 해방된 기분은 말이야.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">뭐, 무슨...</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">당신은 그 말에 깨닫는다.<br>어제까지 불안정했던 정신 상태가 평온을 되찾았다는 것을.<br>자살을 생각했던 것이 마치 거짓말처럼 느껴진다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">그걸 어떻게...?<br>대체, ...누구야?</p>
+                </div>
+            </div>
+            <div class="ccl_player p000">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/W41Be8Q0N4SMbMG2lghVGxadrWu2/files/01df2b1249696573c5310f61ee278a7da7b41ce048ae9d50a9c46ce1b28e89d1?t=1785039915515"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">???</p>
+                    <p class="ccl_Utext">이름 따윈 중요하지 않아, 곧 너도 잊게 될테니.<br>제가 처한 상황이 전혀 이해가지 않는다는 표정이군.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">누구인지부터 말해, 아...<br>내가 왜 여기있는 거야?</p>
+                </div>
+            </div>
+            <div class="ccl_player p000">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/W41Be8Q0N4SMbMG2lghVGxadrWu2/files/01df2b1249696573c5310f61ee278a7da7b41ce048ae9d50a9c46ce1b28e89d1?t=1785039915515"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">???</p>
+                    <p class="ccl_Utext">질문은 나중에 원하는 만큼 들어주지. 일단은 내 이야기부터 잠자코 들어.<br>나는 10년 동안, 그분의 각성을 꿈꾸며 고독하게 살아왔다.<br>하지만 그것도 이제 끝이다. 너라는 동료를 얻었으니까.<br>앞으로는 너와 내가 힘을 합쳐, 그분을 위해 온 힘을 다하는 거다.<br>먼저, 네가 23구 내에 있는 남은 두 곳의 &quot;좌표”를 찾아내 줘야겠다.<br>네가 찾아내서 마킹을 남기고, 그분을 오랜 봉인으로부터 해방시켜드리는 거다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">뭐? 대체... 알아듣게 이야기를 해야지.<br>네가 누구인지도 모르는데 어떻게 너와 협력을 하지?</p>
+                </div>
+            </div>
+            <div class="ccl_player p000">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/W41Be8Q0N4SMbMG2lghVGxadrWu2/files/01df2b1249696573c5310f61ee278a7da7b41ce048ae9d50a9c46ce1b28e89d1?t=1785039915515"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">???</p>
+                    <p class="ccl_Utext">뭐, 이해한다.<br>정신 차려보니 낯선 곳에 있다는 건 꽤 무섭겠지.<br>나도 10년 전에는 너처럼 당황했지만⋯.<br>지금은 아니다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">무슨 말인지 도통 못 알아듣겠어.<br>그럼 내가 왜 여기 있는 건지부터...<br>(그냥 꿈일 거야, 그게 분명하겠지, 아마도.)</p>
+                </div>
+            </div>
+            <div class="ccl_player p000">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/W41Be8Q0N4SMbMG2lghVGxadrWu2/files/01df2b1249696573c5310f61ee278a7da7b41ce048ae9d50a9c46ce1b28e89d1?t=1785039915515"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">???</p>
+                    <p class="ccl_Utext">지금부터, 잘 들어라.<br>좌표는 물건이 아니야. 외벽이나 민가 안 등 다양한 장소에 존재하지. 그 장소에 마킹을 하면 좌표의 효력은 사라진다.<br>그분은 우리에게 기대하고 계셔. 잘 부탁한다, 케이지.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">뭐? 잠깐ㅡㅡ</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">그가 당신의 머리를 쓰다듬자, 당신의 시야는 곧 암전된다.<br>-<br>정신을 차려보니 지저분한 뒷골목에서 다시 눈을 뜬다.<br>태양은 비구름에 가려져 있지만 주위는 밝다.<br>지금은 몇 시쯤 되었을까⋯.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">...</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">어제의 일을 기억해내려고 하자 심한 속 쓰림과 구역질이 느껴지며, 어젯밤의 일은 전혀 떠오르지 않는다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">(잔뜩 헝클어진 머리를 쓸어내리며 상체를 천천히 일으킨다. 역시 꿈인 건가?)<br>분명 술을 마시진 않았는데...<br>그럼 내가 여기 왜, 이런 꼴로 이러고 있는 거지?<br>아ㅡ 머리... (지끈...)<br>속이 안 좋아...</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">지금은⋯. 몇 시 일까,<br>소지품을 조사할 경우<br>시계를 보면 12월 1일 아침 8시라는 것을 알 수 있다.<br>그러고 보니, 오늘은 새로운 반에서의 첫 근무일이다. 지금 바로 가지 않으면 무조건 지각일 적이다.<br>당신은 어떻게 하는가?</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">(지금 가지 않으면 지각일 텐데, 처음부터 밉보일 순 없다.)<br>그런데... 이런 꼴로?<br>(선택의 여지가 없지 않나, 결국 한숨을 푹, 자리에서 천천히 일어난다.)<br>(옷가지를 애써 짜내고 털어내고...)<br>처음부터 밉보이게 생겼네.</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">당신은 택시를 잡고 경시청으로 향한다.<br>-<br>맛이 느껴지지 않는다. 무언가를 씹는 감각만이 입안에 퍼진다.<br>시신의 체격이나 신체적 특징이 낯이 익다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">뭔가... 익숙한데?</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">-<br>당신은 떨릴 정도의 추위에 눈을 뜬다.<br>아무래도 집 앞에 쓰러져 있었던 모양이다.<br>일어서려고 땅에 손을 짚자, 바스락거리는 소리가 난다.<br>의아하게 생각하며 땅을 보자 반경 1m 정도의 범위에 무수한 눈알 스티커가 흩뿌려져 있다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">(소스라치게 놀라며 상체를 다급히 일으킨다.) ...! 뭐야..?!<br>젠장.. 설마 또야?<br>(분명 집까지 돌아왔을 텐데, 제정신으로... 몸서리를 어느정도 멈추며 자리에서 완전히 일어난다.)</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">당신이 스티커를 확인하자⋯.<br>접착면이 뜯겨 있지 않은 듯하다.<br>근처에는 당신이 어제 썼던 가방이 떨어져 있고, 안을 확인하자 무수한 눈알 스티커가 들어있다.<br>이것을 목격한 나가하라, 이성 - 【0/1】</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">CC&lt;=37  이성 (1D100&lt;=37) 보너스, 페널티 주사위[0] ＞ 51 ＞ 51 ＞ 실패<br>(뒤로 몇 발자국 물러나며 당황한 기색을 쉬이 감추지 못한다...) 대체 뭐야? 내가? 아니야, 그럴 리가...<br>(다급히 가방 지퍼를 잠그고, 이걸 들고 갈 수는 없을 터이니...)<br>....</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">어제를 떠올리려 할 경우 [지능] 판정,</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">CC&lt;=55  지능(아이디어) (1D100&lt;=55) 보너스, 페널티 주사위[0] ＞ 97 ＞ 97 ＞ 실패</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">⋯.아무것도 생각 나지 않는다.<br>당신의 옷은 어제와 같다.<br>잠겨있는 집 현관문을 열고 나아가자, 집은 어제와 똑같다.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">난 대체 뭘 했길래,<br>(역시 아직 다 낫지 않은 건가보다. 지끈...)<br>그 가방은.. 버리는 게 낫겠지,</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">여러모로 생각할 것은 있지만, 어제에 이어 오늘도 지각을 할 수는 없다.<br>당신은 서둘러 채비를 마치고 경시청으로 향했다.<br>-<br>요리를 입에 넣은 순간, 입안에 음식물 쓰레기를 농축한 듯한 부패취가 퍼진다.<br>마치 며칠이나 방치된 날고기와 지방 덩어리를 씹는 것 같다.<br>▶나가하라 , [건강] 판정.</p>
+                </div>
+            </div>
+            <div class="ccl_player p002">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"><img src="https://storage.ccfolia-cdn.net/users/lg0fjnjAeHUtwSY68wFkSDRKZd62/files/dc1b290d73fd6903810e5133ff87cb0d43beb4cb31a3b1fb3c4ef3173c50be3c?t=1786309673788"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #607d8b">나가하라 케이지</p>
+                    <p class="ccl_Utext">CC&lt;=55  건강 (1D100&lt;=55) 보너스, 페널티 주사위[0] ＞ 43 ＞ 43 ＞ 보통 성공</p>
+                </div>
+            </div>
+            <div class="ccl_player p001">
+                <div class="ccl_infoWrap">
+                    <div class="ccl_imgWrap"></div>
+                </div>
+                <div class="ccl_textWrap">
+                    <p class="ccl_Uname" style="color: #ff0000">『プルガトリウムの夜』</p>
+                    <p class="ccl_Utext">어떻게든 입안의 이물질을 삼키는 데 성공한다.<br>하지만, 자신의 이변을 주변에 숨기지는 못한 것 같다.<br>추가로 다음의 정보를 습득한다.<br>11월 30일 밤, 당신은 신주쿠 가부키초에서 술을 마시고 자살하기 위해 빌딩 옥상에 올라갔다. 하지만, 뛰어내리기 직전 파열음과 함께 흉부에 격통을 느끼고서 의식을 잃었고, 정신을 차려보니 낯선 남성과 마주하고 있었다. 그는 스스로를 신의 사생아라고 칭하며 당신을 가리키고 이렇게 말했다. 너도 나와 마찬가지로 본체이 죽고, 사생아로서 다시 태어난 거라고.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

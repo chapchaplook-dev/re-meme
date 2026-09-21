@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>고아밤 [정의의 대행자]</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        color: #eee;
+        background: #121212;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-width: 280px;
+        margin: 0;
+        background: #121212;
+      }
+
+      .message-list {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 24px 48px;
+      }
+
+      .log-title {
+        margin: 24px 0;
+        font-size: 24px;
+      }
+
+      .message {
+        display: grid;
+        grid-template-columns: 40px minmax(0, 1fr);
+        column-gap: 12px;
+        padding: 16px 0;
+        border-bottom: 1px solid #262626;
+      }
+
+      .message.system {
+        display: block;
+        padding-left: 52px;
+        color: #888;
+      }
+
+      .avatar,
+      .avatar-spacer {
+        width: 40px;
+        height: 40px;
+      }
+
+      .avatar {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+
+
+      .message-content {
+        min-width: 0;
+      }
+
+      .message-header {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .speaker {
+        color: var(--speaker-color);
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .timestamp,
+      .edited,
+      .channel-name {
+        color: #888;
+        font-size: 12px;
+      }
+
+      .message-text,
+      .roll-result {
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+        white-space: pre-wrap;
+      }
+
+      .roll-result {
+        display: block;
+        color: #888;
+      }
+
+      .roll-result.success,
+      .roll-result.critical {
+        color: #2196f3;
+      }
+
+      .roll-result.failure,
+      .roll-result.fumble {
+        color: #dc004e;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="message-list">
+      <h1 class="log-title">고아밤 [정의의 대행자]</h1>
+
+
+      <article class="message" data-channel="RZIR010pH">
+
+        <span class="avatar-spacer" aria-hidden="true"></span>
+
+        <div class="message-content">
+          <div class="message-header">
+            <span class="speaker" style="--speaker-color:#ff0000">『プルガトリウムの夜』</span>
+            <time class="timestamp" datetime="2026-09-19T12:57:30.686Z">2026. 09. 19. 오후 09:57:30</time>
+
+
+          </div>
+          <div class="message-text">그녀의 말을 듣기 전까지는 신경 쓰지 않았지만, 어젯밤 집에 돌아갔다는 기억이 없다.</div>
+
+        </div>
+      </article>
+
+
+
+      <article class="message" data-channel="RZIR010pH">
+
+        <span class="avatar-spacer" aria-hidden="true"></span>
+
+        <div class="message-content">
+          <div class="message-header">
+            <span class="speaker" style="--speaker-color:#ff0000">『プルガトリウムの夜』</span>
+            <time class="timestamp" datetime="2026-09-20T11:42:50.139Z">2026. 09. 20. 오후 08:42:50</time>
+
+
+          </div>
+          <div class="message-text">-</div>
+
+        </div>
+      </article>
+
+
+
+      <article class="message" data-channel="RZIR010pH">
+
+        <span class="avatar-spacer" aria-hidden="true"></span>
+
+        <div class="message-content">
+          <div class="message-header">
+            <span class="speaker" style="--speaker-color:#ff0000">『プルガトリウムの夜』</span>
+            <time class="timestamp" datetime="2026-09-20T17:48:07.357Z">2026. 09. 21. 오전 02:48:07</time>
+
+
+          </div>
+          <div class="message-text">추가로 아래의 정보를 알 수 있다.</div>
+
+        </div>
+      </article>
+
+
+
+      <article class="message" data-channel="RZIR010pH">
+
+        <span class="avatar-spacer" aria-hidden="true"></span>
+
+        <div class="message-content">
+          <div class="message-header">
+            <span class="speaker" style="--speaker-color:#ff0000">『プルガトリウムの夜』</span>
+            <time class="timestamp" datetime="2026-09-20T17:48:09.734Z">2026. 09. 21. 오전 02:48:09</time>
+
+
+          </div>
+          <div class="message-text">권총을 본 기억이 난다. 1년 전 부하인 니라사와 사토시가 사용했던 것이다.</div>
+
+        </div>
+      </article>
+
+
+    </main>
+  </body>
+</html>
